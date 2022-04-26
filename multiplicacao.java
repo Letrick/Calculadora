@@ -28,7 +28,7 @@ public class multiplicacao implements ICalculadora
     
     @Override
     public Float calcula(final Float[] numeros) {
-        Float mult = 1.1f;
+        Float mult = 1.0f;
         for (int i = 0; i < numeros.length; ++i) {
             mult *= numeros[i];
         }
@@ -37,7 +37,7 @@ public class multiplicacao implements ICalculadora
     
     @Override
     public Double calcula(final Double[] numeros) {
-        Double mult = 1.1;
+        Double mult = 1.0;
         for (int i = 0; i < numeros.length; ++i) {
             mult *= numeros[i];
         }

@@ -37,7 +37,7 @@ public class multiplicacao implements ICalculadora
     
     @Override
     public Double calcula(final Double[] numeros) {
-        Double mult = 1.0;
+        Double mult = 1.0d;
         for (int i = 0; i < numeros.length; ++i) {
             mult *= numeros[i];
         }
